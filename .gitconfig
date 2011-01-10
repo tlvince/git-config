@@ -9,6 +9,6 @@
 [web]
     browser = chromium
 [color]
-	diff = auto
+    diff = auto
 [core]
-	excludesfile = /home/tom/.gitignore-global
+    excludes-file = $HOME/.gitignore-global
