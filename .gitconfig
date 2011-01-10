@@ -1,0 +1,14 @@
+[user]
+    name = Tom Vincent
+    email = tlvince+linux@gmail.com
+[alias]
+    co = checkout
+	st = status -s
+    lp = log --graph --all --pretty=format:'%h - (%cr) %s' --abbrev-commit --decorate --date-order
+    ls = ls-files
+[web]
+    browser = chromium
+[color]
+	diff = auto
+[core]
+	excludesfile = /home/tom/.gitignore-global
