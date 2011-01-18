@@ -11,4 +11,4 @@
 [color]
     diff = auto
 [core]
-    excludes-file = $HOME/.gitignore-global
+    excludesfile = ~/.gitignore-global
