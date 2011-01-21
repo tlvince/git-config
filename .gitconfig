@@ -3,9 +3,13 @@
     email = tlvince+linux@gmail.com
 [alias]
     co = checkout
-	st = status -s
-    lp = log --graph --all --pretty=format:'%h - (%cr) %s' --abbrev-commit --decorate --date-order
+    st = status -s
+    ci = commit
+    br = branch
+    df = diff
     ls = ls-files
+    lp = log --graph --all --pretty=format:'%h - (%cr) %s' --abbrev-commit --decorate --date-order
+    lo = log --graph --decorate --pretty=oneline --abbrev-commit
 [web]
     browser = chromium
 [color]
