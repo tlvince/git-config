@@ -8,8 +8,9 @@
     br = branch
     df = diff
     ls = ls-files
-    lp = log --graph --all --pretty=format:'%h - (%cr) %s' --abbrev-commit --decorate --date-order
+    lpp = log --graph --all --pretty=format:'%h - (%cr) %s' --abbrev-commit --decorate --date-order
     lo = log --graph --decorate --pretty=oneline --abbrev-commit
+    lp = log -p --follow
 [web]
     browser = chromium
 [color]
