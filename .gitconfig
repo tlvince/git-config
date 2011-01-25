@@ -3,7 +3,7 @@
     email = tlvince+linux@gmail.com
 [alias]
     co = checkout
-    st = status -s
+    st = status --short --ignore-submodules=dirty
     ci = commit
     br = branch
     df = diff
