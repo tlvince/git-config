@@ -3,12 +3,17 @@
     email = tlvince+linux@gmail.com
 [alias]
     co = checkout
-	st = status -s
-    lp = log --graph --all --pretty=format:'%h - (%cr) %s' --abbrev-commit --decorate --date-order
+    st = status --short --ignore-submodules=dirty
+    ci = commit
+    br = branch
+    df = diff
     ls = ls-files
+    lpp = log --graph --all --pretty=format:'%h - (%cr) %s' --abbrev-commit --decorate --date-order
+    lo = log --graph --decorate --pretty=oneline --abbrev-commit
+    lp = log -p --follow
 [web]
     browser = chromium
 [color]
-	diff = auto
+    diff = auto
 [core]
-	excludesfile = /home/tom/.gitignore-global
+    excludesfile = ~/.gitignore-global
