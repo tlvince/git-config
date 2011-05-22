@@ -5,12 +5,15 @@
     co = checkout
     st = status --short --ignore-submodules=dirty
     ci = commit
+    cia = commit --all --message
     br = branch
     df = diff
     ls = ls-files
     lpp = log --graph --all --pretty=format:'%h - (%cr) %s' --abbrev-commit --decorate --date-order
     lo = log --graph --decorate --pretty=oneline --abbrev-commit
     lp = log -p --follow
+    pd = pull origin master
+    pu = push origin master
 [web]
     browser = chromium
 [color]
