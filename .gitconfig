@@ -8,12 +8,14 @@
     cia = commit --all --message
     br = branch
     df = diff
+    dfs = diff --stat
     ls = ls-files
     lpp = log --graph --all --pretty=format:'%h - (%cr) %s' --abbrev-commit --decorate --date-order
     lo = log --graph --decorate --pretty=oneline --abbrev-commit
     lp = log -p --follow
     pd = pull origin master
     pu = push origin master
+    subpd = submodule foreach git pull origin master
 [web]
     browser = chromium
 [color]
