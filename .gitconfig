@@ -13,6 +13,7 @@
     lpp = log --graph --all --pretty=format:'%h - (%cr) %s' --abbrev-commit --decorate --date-order
     lo = log --graph --decorate --pretty=oneline --abbrev-commit
     lp = log -p --follow
+    lh = log --follow --pretty=format:'%h'
     pd = pull origin master
     pu = push origin master
     subpd = submodule foreach git pull origin master
