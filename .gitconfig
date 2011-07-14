@@ -1,6 +1,6 @@
 [user]
     name = Tom Vincent
-    email = tlvince+linux@gmail.com
+    email = tlvince@gmail.com
 [alias]
     co = checkout
     st = status --short --ignore-submodules=dirty
