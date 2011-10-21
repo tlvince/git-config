@@ -4,7 +4,7 @@
 
 ignores="Archives Eclipse OSX SVN Windows"
 url="https://raw.github.com/github/gitignore/master/Global"
-out="$(git config core.excludesfile)"
+out="$(git config --global core.excludesfile)"
 out="${out/\~/$HOME}"
 
 [ -f "$out" ] && rm "$out"

@@ -10,6 +10,10 @@
 
         ln -s "$XDG_CONFIG_HOME/git/git.conf" "$HOME/.gitconfig"
 
-3. Update the global `.gitignore`
+3. Make the requried data directory
+
+        mkdir "$XDG_DATA_HOME/git"
+
+4. Update the global `.gitignore`
 
         sh "$XDG_CONFIG_HOME/git/update.sh"
