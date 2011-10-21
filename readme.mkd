@@ -12,4 +12,4 @@
 
 3. Update the global `.gitignore`
 
-        ./$XDG_CONFIG_HOME/git/update.sh
+        sh "$XDG_CONFIG_HOME/git/update.sh"
