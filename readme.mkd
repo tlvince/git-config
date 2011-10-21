@@ -1,0 +1,15 @@
+# Git config
+
+## Usage
+
+1. Clone the repository
+
+        git clone https://github.com/tlvince/git-config.git $XDG_CONFIG_HOME/git
+
+2. Symlink `git.conf`
+
+        ln -s "$XDG_CONFIG_HOME/git/git.conf" "$HOME/.gitconfig"
+
+3. Update the global `.gitignore`
+
+        ./$XDG_CONFIG_HOME/git/update.sh
