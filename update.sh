@@ -6,6 +6,7 @@ ignores="Archives Eclipse OSX SVN Windows"
 url="https://raw.github.com/github/gitignore/master/Global"
 out="$(git config --global core.excludesfile)"
 out="${out/\~/$HOME}"
+localIgnore="global.gitignore"
 
 [ -f "$out" ] && rm "$out"
 
@@ -21,3 +22,4 @@ for i in $ignores; do
     curl -sS "$url/$i.gitignore" >> "$out"
     echo "" >> "$out"
 done
+cat "$localIgnore" >> "$out"
