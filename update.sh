@@ -1,6 +1,6 @@
 #!/bin/sh
 # Make a global git ignore.
-# Copyright 2011 Tom Vincent <http://tlvince.com/contact/>
+# Copyright 2011-2012 Tom Vincent <http://tlvince.com/contact>
 
 ignores="Archives Eclipse OSX SVN Windows"
 url="https://raw.github.com/github/gitignore/master/Global"
@@ -12,7 +12,7 @@ localIgnore="global.gitignore"
 
 cat << EOF >> "$out"
 # Global gitignore file. {{{1
-# Copyright 2011 Tom Vincent <http://tlvince.com/contact/>
+# Copyright 2011-2012 Tom Vincent <http://tlvince.com/contact>
 # vim: fdm=marker
 
 EOF
