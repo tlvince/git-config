@@ -1,4 +1,0 @@
-# Non-Github maintained global ignores {{{1
-*.pyc
-__pycache__
-tags
