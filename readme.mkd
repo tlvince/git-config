@@ -4,11 +4,11 @@
 
 1. Clone the repository
 
-        git clone --recursive https://github.com/tlvince/git-config.git "$XDG_CONFIG_HOME/git"
+        git clone --recursive https://github.com/tlvince/git-config.git "$XDG_DATA_HOME/git"
 
 2. Run the initialisation script
 
-        sh "$XDG_CONFIG_HOME/git/init.sh"
+        sh "$XDG_DATA_HOME/git/init.sh"
 
 ## Author
 
