@@ -4,16 +4,12 @@
 
 1. Clone the repository
 
-        git clone https://github.com/tlvince/git-config.git $XDG_CONFIG_HOME/git
+        git clone --recursive https://github.com/tlvince/git-config.git "$XDG_CONFIG_HOME/git"
 
-2. Symlink `git.conf`
+2. Run the initialisation script
 
-        ln -s "$XDG_CONFIG_HOME/git/git.conf" "$HOME/.gitconfig"
+        sh "$XDG_CONFIG_HOME/git/init.sh"
 
-3. Make the requried data directory
+## Author
 
-        mkdir "$XDG_DATA_HOME/git"
-
-4. Update the global `.gitignore`
-
-        sh "$XDG_CONFIG_HOME/git/update.sh"
+# © 2013 Tom Vincent <http://tlvince.com/contact>
