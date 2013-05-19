@@ -9,3 +9,6 @@ cat $vendor/{Archives,SVN,Tags,OSX}.gitignore > "$out"
 
 [ -f "$HOME/.gitconfig" ] || \
   ln -s "$XDG_DATA_HOME/git/git.conf" "$HOME/.gitconfig"
+
+[ -f "$HOME/.gitattributes" ] || \
+  ln -s "$XDG_DATA_HOME/git/git.attributes" "$HOME/.gitattributes"
