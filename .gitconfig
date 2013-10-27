@@ -7,7 +7,7 @@
 	email = git@tlvince.com
 [alias]
 	a = add --ignore-removal
-	ac = "!sh $XDG_DATA_HOME/git/scripts/aliases/add-commit.sh"
+	ac = "!sh $HOME/.gitdata/scripts/aliases/add-commit.sh"
 	c = commit
 	co = checkout
 	cl = clone --recursive
@@ -31,22 +31,22 @@
 	s = status --short --ignore-submodules=dirty
 	subpd = submodule foreach --recursive git pull origin master
 	subpu = submodule foreach --recursive git push origin master
-	subrm = "!sh $XDG_DATA_HOME/git/scripts/aliases/vendor/git-submodule-rm/git-submodule-rm.sh"
-	subown = submodule foreach --recursive "sh $XDG_DATA_HOME/git/scripts/submodule-owner.sh"
-	subownpd = submodule foreach --recursive "sh $XDG_DATA_HOME/git/scripts/submodule-owner.sh git pull origin master"
-	subownpu = submodule foreach --recursive "sh $XDG_DATA_HOME/git/scripts/submodule-owner.sh git push origin master"
+	subrm = "!sh $HOME/.gitdata/scripts/aliases/vendor/git-submodule-rm/git-submodule-rm.sh"
+	subown = submodule foreach --recursive "sh $HOME/.gitdata/scripts/submodule-owner.sh"
+	subownpd = submodule foreach --recursive "sh $HOME/.gitdata/scripts/submodule-owner.sh git pull origin master"
+	subownpu = submodule foreach --recursive "sh $HOME/.gitdata/scripts/submodule-owner.sh git push origin master"
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
 	branches = branch -a
 	remotes = remote -v
-	credit = "!sh $XDG_DATA_HOME/git/scripts/aliases/credit.sh"
+	credit = "!sh $HOME/.gitdata/scripts/aliases/credit.sh"
 [color]
 	ui = auto
 [apply]
 	whitespace = fix
 [core]
-	excludesfile = ~/.gitignore
-	attributesfile = ~/.gitattributes
+	excludesfile = ~/.gitdata/gitignore
+	attributesfile = ~/.gitdata/gitattributes
 	whitespace = space-before-tab,trailing-space
 [github]
 	user = tlvince
