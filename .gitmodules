@@ -1,6 +1,6 @@
-[submodule "vendor/gitignore"]
-	path = vendor/gitignore
+[submodule ".gitdata/vendor/gitignore"]
+	path = .gitdata/vendor/gitignore
 	url = https://github.com/github/gitignore.git
-[submodule "scripts"]
-	path = scripts
-	url = https://github.com/tlvince/git-scripts.git
+[submodule ".gitdata/scripts"]
+	path = .gitdata/scripts
+	url = http://github.com/tlvince/git-scripts.git
