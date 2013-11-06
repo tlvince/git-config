@@ -18,6 +18,7 @@
 	dfs = diff --stat
 	g = grep --ignore-case
 	ls = ls-files
+	ll = "!sh $HOME/.gitdata/scripts/aliases/find-file.sh"
 	lpp = log --graph --all --pretty=format:'%h by %an (%cr):%d %s' --abbrev-commit --decorate --date-order
 	lo = log --graph --decorate --pretty=oneline --abbrev-commit
 	l = log -p --follow
