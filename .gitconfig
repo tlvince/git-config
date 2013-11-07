@@ -80,6 +80,7 @@
 	default = simple
 [mergetool]
 	prompt = false
+	keepBackup = false
 [mergetool "fugitive"]
 	cmd = vim -c "Gdiff" "$MERGED"
 [diff]
