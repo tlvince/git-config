@@ -12,6 +12,7 @@
 	co = checkout
 	cl = clone --recursive
 	cia = commit --all --message
+	credit = "!sh $HOME/.gitdata/scripts/aliases/credit.sh"
 	br = branch
 	brrm = "!git branch --merged | grep -v '^*' | xargs -n 1 git branch -d"
 	d = diff
@@ -43,7 +44,6 @@
 	tags = tag -l
 	branches = branch -a
 	remotes = remote -v
-	credit = "!sh $HOME/.gitdata/scripts/aliases/credit.sh"
 [color]
 	ui = auto
 [apply]
