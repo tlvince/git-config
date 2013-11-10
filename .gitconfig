@@ -13,6 +13,7 @@
 	cl = clone --recursive
 	cia = commit --all --message
 	br = branch
+	brrm = "!git branch --merged | grep -v '^*' | xargs -n 1 git branch -d"
 	d = diff
 	dt = difftool
 	dfs = diff --stat
