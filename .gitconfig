@@ -10,6 +10,7 @@
 	ac = "!sh $HOME/.gitdata/scripts/aliases/add-commit.sh"
 	c = commit
 	co = checkout
+	cob = checkout -b
 	cl = clone --recursive
 	cia = commit --all --message
 	cp = cherry-pick
