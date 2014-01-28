@@ -92,3 +92,5 @@
 	prompt = false
 [web]
 	browser = open
+[branch]
+	autosetuprebase = always
