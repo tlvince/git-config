@@ -1,5 +1,5 @@
 # Git config.
-# © 2010-2013 Tom Vincent <http://tlvince.com/contact/>
+# © 2010-2014 Tom Vincent <http://tlvince.com/contact/>
 # vim: ft=.gitconfig
 
 [user]
@@ -8,9 +8,12 @@
 [alias]
 	a = add --ignore-removal
 	ac = "!sh $HOME/.gitdata/scripts/aliases/add-commit.sh"
+	ap = add --patch
 	c = commit
 	co = checkout
 	cob = checkout -b
+	cod = checkout develop
+	com = checkout master
 	cl = clone --recursive
 	cia = commit --all --message
 	cp = cherry-pick
@@ -32,9 +35,10 @@
 	pa = push --all all
 	pd = pull origin master
 	pdd = pull origin develop
+	ph = push --tags heroku master
+	pr = pull-request
 	pu = push --tags origin master
 	pud = push --tags origin develop
-	ph = push --tags heroku master
 	s = status --short --ignore-submodules=dirty
 	subpd = submodule foreach --recursive git pull origin master
 	subpu = submodule foreach --recursive git push origin master
