@@ -52,6 +52,8 @@
 	remotes = remote -v
 [color]
 	ui = auto
+[color "grep"]
+	match = green
 [apply]
 	whitespace = fix
 [core]
