@@ -33,8 +33,8 @@
 	lhr = log --reverse --pretty=format:'%H'
 	lm = log --follow --pretty=format:'%s'
 	pa = push --all all
-	pd = pull origin master
-	pdd = pull origin develop
+	pd = pull --tags origin master
+	pdd = pull --tags origin develop
 	ph = push --tags heroku master
 	pr = pull-request
 	pu = push --tags origin master
