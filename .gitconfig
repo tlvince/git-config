@@ -7,6 +7,7 @@
 	email = git@tlvince.com
 [alias]
 	a = add --ignore-removal
+	aa = add --ignore-removal --all
 	ac = "!sh $HOME/.gitdata/scripts/aliases/add-commit.sh"
 	ap = add --patch
 	c = commit
@@ -39,6 +40,7 @@
 	pr = pull-request
 	pu = push --tags origin master
 	pud = push --tags origin develop
+	rbc = rebase --continue
 	s = status --short --ignore-submodules=dirty
 	subpd = submodule foreach --recursive git pull origin master
 	subpu = submodule foreach --recursive git push origin master
@@ -100,3 +102,5 @@
 	browser = open
 [branch]
 	autosetuprebase = always
+[ghi]
+	token = !security find-internet-password -a tlvince -s github.com -l 'ghi token' -w
