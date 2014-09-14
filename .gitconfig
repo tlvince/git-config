@@ -8,7 +8,7 @@
 [alias]
 	a = add --ignore-removal
 	aa = add --ignore-removal --all
-	ac = "!sh $HOME/.gitdata/scripts/aliases/add-commit.sh"
+	ac = "!sh /Users/tom/.gitdata/scripts/aliases/add-commit.sh"
 	ap = add --patch
 	c = commit
 	co = checkout
@@ -18,7 +18,7 @@
 	cl = clone --recursive
 	cia = commit --all --message
 	cp = cherry-pick
-	credit = "!sh $HOME/.gitdata/scripts/aliases/credit.sh"
+	credit = "!sh /Users/tom/.gitdata/scripts/aliases/credit.sh"
 	br = branch
 	brrm = "!git branch --merged | grep -v '^*' | xargs -n 1 git branch -d"
 	d = diff
@@ -26,7 +26,7 @@
 	dfs = diff --stat
 	g = grep --ignore-case
 	ls = ls-files
-	ll = "!sh $HOME/.gitdata/scripts/aliases/find-file.sh"
+	ll = "!sh /Users/tom/.gitdata/scripts/aliases/find-file.sh"
 	lpp = log --graph --all --pretty=format:'%h by %an (%cr):%d %s' --abbrev-commit --decorate --date-order
 	lo = log --graph --decorate --pretty=oneline --abbrev-commit
 	l = log -p --follow
@@ -44,10 +44,10 @@
 	s = status --short --ignore-submodules=dirty
 	subpd = submodule foreach --recursive git pull origin master
 	subpu = submodule foreach --recursive git push origin master
-	subrm = "!sh $HOME/.gitdata/scripts/aliases/vendor/git-submodule-rm/git-submodule-rm.sh"
-	subown = submodule foreach --recursive "sh $HOME/.gitdata/scripts/submodule-owner.sh"
-	subownpd = submodule foreach --recursive "sh $HOME/.gitdata/scripts/submodule-owner.sh git pull origin master"
-	subownpu = submodule foreach --recursive "sh $HOME/.gitdata/scripts/submodule-owner.sh git push origin master"
+	subrm = "!sh /Users/tom/.gitdata/scripts/aliases/vendor/git-submodule-rm/git-submodule-rm.sh"
+	subown = submodule foreach --recursive "sh /Users/tom/.gitdata/scripts/submodule-owner.sh"
+	subownpd = submodule foreach --recursive "sh /Users/tom/.gitdata/scripts/submodule-owner.sh git pull origin master"
+	subownpu = submodule foreach --recursive "sh /Users/tom/.gitdata/scripts/submodule-owner.sh git push origin master"
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
 	branches = branch -a
