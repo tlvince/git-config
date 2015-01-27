@@ -1,5 +1,5 @@
-# Git config.
-# © 2010-2014 Tom Vincent <http://tlvince.com/contact/>
+# Git config
+# © 2010-2015 Tom Vincent <https://tlvince.com/contact/>
 # vim: ft=.gitconfig
 
 [user]
@@ -11,6 +11,7 @@
 	ac = "!sh /Users/tom/.gitdata/scripts/aliases/add-commit.sh"
 	ap = add --patch
 	c = commit
+	ci = commit --all
 	co = checkout
 	cob = checkout -b
 	cod = checkout develop
@@ -87,6 +88,8 @@
 	insteadOf = "https://github.com/dotapp"
 [url "git@github.com:onarray"]
 	insteadOf = "https://github.com/onarray"
+[url "git@github.com:eHealthAfrica"]
+	insteadOf = "https://github.com/eHealthAfrica"
 [push]
 	default = simple
 [mergetool]
