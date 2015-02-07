@@ -19,6 +19,7 @@
 	cl = clone --recursive
 	cia = commit --all --message
 	cp = cherry-pick
+	cpc = cherry-pick --continue
 	credit = "!sh /Users/tom/.gitdata/scripts/aliases/credit.sh"
 	br = branch
 	brrm = "!git branch --merged | grep -v '^*' | xargs -n 1 git branch -d"
