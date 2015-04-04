@@ -54,6 +54,7 @@
 	tags = tag -l
 	branches = branch -a
 	remotes = remote -v
+	ctags = !.git/hooks/ctags
 [color]
 	ui = auto
 [color "grep"]
@@ -108,3 +109,5 @@
 	autosetuprebase = always
 [ghi]
 	token = !security find-internet-password -a tlvince -s github.com -l 'ghi token' -w
+[init]
+	templatedir = "/Users/tom/.gitdata/templates"
