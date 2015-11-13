@@ -10,14 +10,14 @@
 	aa = add --ignore-removal --all
 	ac = "!sh /Users/tom/.gitdata/scripts/aliases/add-commit.sh"
 	ap = add --patch
-	c = commit
-	ci = commit --all
+	c = commit --verbose
+	ci = commit --all --verbose
 	co = checkout
 	cob = checkout -b
 	cod = checkout develop
 	com = checkout master
 	cl = clone --recursive
-	cia = commit --all --message
+	cia = commit --all --verbose --message
 	cp = cherry-pick
 	cpc = cherry-pick --continue
 	credit = "!sh /Users/tom/.gitdata/scripts/aliases/credit.sh"
