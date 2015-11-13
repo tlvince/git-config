@@ -72,36 +72,15 @@
 	tool = fugitive
 [heroku]
 	account = tlvince
-# URL shorthands
-[url "git@github.com:"]
-	insteadOf = "gh:"
-	pushInsteadOf = "github:"
-	pushInsteadOf = "git://github.com/"
-[url "git://github.com/"]
-	insteadOf = "github:"
-[url "git@gist.github.com:"]
-	insteadOf = "gst:"
-	pushInsteadOf = "gist:"
-	pushInsteadOf = "git://gist.github.com/"
-[url "git://gist.github.com/"]
-	insteadOf = "gist:"
-[url "git@github.com:tlvince"]
-	insteadOf = "https://github.com/tlvince"
-[url "git@github.com:dotapp"]
-	insteadOf = "https://github.com/dotapp"
-[url "git@github.com:onarray"]
-	insteadOf = "https://github.com/onarray"
-[url "git@github.com:eHealthAfrica"]
-	insteadOf = "https://github.com/eHealthAfrica"
 [push]
 	default = simple
 [mergetool]
 	prompt = false
 	keepBackup = false
 [mergetool "fugitive"]
-	cmd = vim -c "Gdiff" "$MERGED"
+	cmd = nvim -c "Gdiff" "$MERGED"
 [diff]
-	tool = vimdiff
+	tool = nvim -d
 [difftool]
 	prompt = false
 [web]
