@@ -35,6 +35,7 @@
 	lh = log --follow --pretty=format:'%H'
 	lhr = log --reverse --pretty=format:'%H'
 	lm = log --follow --pretty=format:'%s'
+	mt = mergetool
 	pa = push --all all
 	pd = pull --rebase --tags origin master
 	pdd = pull --rebase --tags origin develop
