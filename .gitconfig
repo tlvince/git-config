@@ -67,6 +67,7 @@
 	excludesfile = ~/.gitdata/gitignore
 	attributesfile = ~/.gitdata/gitattributes
 	whitespace = space-before-tab,trailing-space
+	untrackedCache = true
 [github]
 	user = tlvince
 [merge]
