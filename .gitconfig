@@ -102,5 +102,5 @@
 [commit]
 	verbose = true
 [pager]
-	diff = diff-so-fancy | less --pattern '^(added|deleted|modified): '
-	show = diff-so-fancy | less --pattern '^(added|deleted|modified): '
+	diff = diff-so-fancy | less
+	show = diff-so-fancy | less
