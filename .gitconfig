@@ -44,6 +44,7 @@
 	pu = push --tags origin master
 	pud = push --tags origin develop
 	puu = push --tags --set-upstream origin
+	put = push --tags --set-upstream tlvince
 	rbc = rebase --continue
 	s = status --short --ignore-submodules=dirty
 	subpd = submodule foreach --recursive git pull origin master
