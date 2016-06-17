@@ -10,14 +10,14 @@
 	aa = add --ignore-removal --all
 	ac = "!sh /Users/tom/.gitdata/scripts/aliases/add-commit.sh"
 	ap = add --patch
-	c = commit --verbose
-	ci = commit --all --verbose
+	c = commit
+	ci = commit --all
 	co = checkout
 	cob = checkout -b
 	cod = checkout develop
 	com = checkout master
 	cl = clone --recursive
-	cia = commit --all --verbose --message
+	cia = commit --all --message
 	cp = cherry-pick
 	cpc = cherry-pick --continue
 	credit = "!sh /Users/tom/.gitdata/scripts/aliases/credit.sh"
@@ -71,6 +71,7 @@
 	attributesfile = ~/.gitdata/gitattributes
 	whitespace = space-before-tab,trailing-space
 	untrackedCache = true
+	pager = diff-so-fancy | less
 [github]
 	user = tlvince
 [merge]
@@ -86,6 +87,7 @@
 	cmd = nvim -c "Gdiff" "$MERGED"
 [diff]
 	tool = nvim -d
+	compactionHeuristic = true
 [difftool]
 	prompt = false
 [web]
@@ -96,3 +98,7 @@
 	token = !security find-internet-password -a tlvince -s github.com -l 'ghi token' -w
 [init]
 	templatedir = "/Users/tom/.gitdata/templates"
+[interactive]
+	diffFilter = diff-so-fancy
+[commit]
+	verbose = true
