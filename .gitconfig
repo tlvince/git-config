@@ -103,4 +103,5 @@
 	verbose = true
 [pager]
 	diff = diff-so-fancy | less
+	log = diff-so-fancy | less
 	show = diff-so-fancy | less
