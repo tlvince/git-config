@@ -71,7 +71,6 @@
 	attributesfile = ~/.gitdata/gitattributes
 	whitespace = space-before-tab,trailing-space
 	untrackedCache = true
-	pager = diff-so-fancy | less
 [github]
 	user = tlvince
 [merge]
@@ -104,3 +103,4 @@
 	verbose = true
 [pager]
 	diff = diff-so-fancy | less --pattern '^(added|deleted|modified): '
+	show = diff-so-fancy | less --pattern '^(added|deleted|modified): '
