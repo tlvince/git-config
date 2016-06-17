@@ -47,6 +47,8 @@
 	put = push --tags --set-upstream tlvince
 	rbc = rebase --continue
 	s = status --short --ignore-submodules=dirty
+	skip = update-index --skip-worktree
+	unskip = update-index --no-skip-worktree
 	subpd = submodule foreach --recursive git pull origin master
 	subpu = submodule foreach --recursive git push origin master
 	subrm = "!sh /Users/tom/.gitdata/scripts/aliases/vendor/git-submodule-rm/git-submodule-rm.sh"
