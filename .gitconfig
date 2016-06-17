@@ -99,6 +99,8 @@
 [init]
 	templatedir = "/Users/tom/.gitdata/templates"
 [interactive]
-	diffFilter = diff-so-fancy
+	diffFilter = diff-so-fancy --patch-mode
 [commit]
 	verbose = true
+[pager]
+	diff = diff-so-fancy | less --pattern '^(added|deleted|modified): '
