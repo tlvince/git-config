@@ -22,7 +22,7 @@
 	cpc = cherry-pick --continue
 	credit = "!sh /Users/tom/.gitdata/scripts/aliases/credit.sh"
 	br = branch
-	brrm = "!git branch --merged | grep -v '^*' | xargs -n 1 git branch -d"
+	brrm = "!git branch | grep -v '^*' | grep -v 'master' | xargs -n 1 git branch -D"
 	d = diff
 	dt = difftool
 	dfs = diff --stat
@@ -40,7 +40,7 @@
 	pd = pull --rebase --tags origin master
 	pdd = pull --rebase --tags origin develop
 	ph = push --tags heroku master
-	pr = pull-request
+	pro = pull-request
 	pu = push --tags origin master
 	pud = push --tags origin develop
 	puu = push --tags --set-upstream origin
@@ -122,6 +122,7 @@
 	diffFilter = diff-so-fancy --patch-mode
 [commit]
 	verbose = true
+	gpgsign = true
 [pager]
 	diff = diff-so-fancy | less
 	log = diff-so-fancy | less
