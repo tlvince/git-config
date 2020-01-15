@@ -11,6 +11,8 @@
 	ac = "!sh /Users/tom/.gitdata/scripts/aliases/add-commit.sh"
 	ap = add --patch
 	c = commit
+	cf = commit --amend --no-edit
+	cfa = commit --all --amend --no-edit
 	ci = commit --all
 	co = checkout
 	cob = checkout -b
